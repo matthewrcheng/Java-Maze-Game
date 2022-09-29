@@ -427,12 +427,12 @@ public class ReliableRobot implements Robot {
 	@Override
 	public void startFailureAndRepairProcess(Direction direction, int meanTimeBetweenFailures, int meanTimeToRepair)
 			throws UnsupportedOperationException {
-		throw new UnsupportedOperationException("ReliableRobot does not have a failure and repair process.");
+		if (false) throw new UnsupportedOperationException("ReliableRobot does not have a failure and repair process.");
 	}
 
 	@Override
 	public void stopFailureAndRepairProcess(Direction direction) throws UnsupportedOperationException {
-		throw new UnsupportedOperationException("ReliableRobot does not have a failure and repair process.");
+		if (false) throw new UnsupportedOperationException("ReliableRobot does not have a failure and repair process.");
 	}
 
 }

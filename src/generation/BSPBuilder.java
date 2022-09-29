@@ -226,6 +226,6 @@ public class BSPBuilder {
 	 * @param str the string to be printed for debugging purposes
 	 */
 	static void dbg(String str) {
-		System.out.println("BSPBuilder: "+str);
+		// System.out.println("BSPBuilder: "+str);
 	}
 }
