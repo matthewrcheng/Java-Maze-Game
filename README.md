@@ -25,9 +25,9 @@ To run with a Boruvka generator:
 java gui/MazeApplication -g "Boruvka"
 ```
 
-To run with a Wizard solver, reliable front and right sensors, and unreliable left and back sensors:
+To run with a Wizard solver, reliable front and right sensors, unreliable left and back sensors, and 1000 battery:
 ```command
-java gui/MazeApplication -d "Wizard" -r ruru
+java gui/MazeApplication -d "Wizard" -r ruru -b 1000
 ```
 
 To run with an input xml file:
