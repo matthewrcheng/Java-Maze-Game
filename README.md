@@ -46,4 +46,5 @@ Each robot has a battery level, with 3500 as the default. As the robot moves thr
 ## Sensors
 Each robot is equipped with four sensors. A sensor allows the robot to see in the cardinal direction that it is facing, so that it can measure how much space it has to move. These sensors can be reliable or unreliable.
 
-Reliable sensors will always 
+Reliable sensors will always work.
+Unreliable sensors may occasionally break. They will repair on their own, however this will take time. In the meantime, the robot will need to rotate to use its working sensor(s) until the broken sensor(s) is/are fixed.
