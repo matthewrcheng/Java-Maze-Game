@@ -964,7 +964,7 @@ public class Floorplan {
 
 	///////////////// code for debugging ///////////////////////////////////////
 	private void dbg(String str) {
-		System.out.println("Cells: "+str);
+		//System.out.println("Cells: "+str);
 	}
 	/**
 	 * Methods dumps internal data into a string, intended usage is for debugging purposes. 

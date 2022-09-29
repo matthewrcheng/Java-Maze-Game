@@ -1,4 +1,4 @@
-package generation;
+/*package generation;
 
 import java.awt.Point;
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ import java.util.ArrayList;
 * generating the cheapest spanning tree.
 *   
 * @author Matthew Cheng
-*/
+
 
 public class MazeBuilderBoruvka extends MazeBuilder implements Runnable {
 	
@@ -368,3 +368,4 @@ public class MazeBuilderBoruvka extends MazeBuilder implements Runnable {
 		return idx;
 	}
 }
+*/

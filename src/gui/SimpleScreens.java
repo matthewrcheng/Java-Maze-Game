@@ -106,7 +106,7 @@ public class SimpleScreens {
 
 	@SuppressWarnings("unused")
 	private void dbg(String str) {
-		System.out.println("MazeView:" + str);
+		//System.out.println("MazeView:" + str);
 	}
     /**
      * Draws the finish screen, screen content is hard coded

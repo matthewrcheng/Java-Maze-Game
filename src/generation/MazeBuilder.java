@@ -312,6 +312,6 @@ public class MazeBuilder implements Runnable {
 	 */
 	static void dbg(String str) {
 		// TODO: replace with logger
-		System.out.println("MazeBuilder: "+str);
+		// System.out.println("MazeBuilder: "+str);
 	}
 }

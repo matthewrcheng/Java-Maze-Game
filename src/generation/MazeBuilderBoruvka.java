@@ -60,22 +60,17 @@ public class MazeBuilderBoruvka extends MazeBuilder implements Runnable {
 		int co = 0;
 		// while not all vertices belong to the same component...
 		while (!completed) {
-			System.out.println("Iteration: " + co);
 			co++;
 			
 			// find the connected components and assign to each vertex its component
 			ArrayList<ArrayList<int []>> components = new ArrayList<ArrayList<int []>>(this.width*this.height);
 			assign_components(components);
-			System.out.println(components);
-			System.out.println(components.size());
 			
 			// initialize the cheapest edge for each component to none
 			Wallboard[]cheapest = new Wallboard[components.size()];
 			for (int i = 0; i < cheapest.length; i++) {
 				cheapest[i] = null;
 			}
-			System.out.println(cheapest);
-			//System.out.println(new int[]{cheapest[0].getX(),cheapest[0].getY()});
 			
 			// for each edge uv in E where u and v are in different components of F
 			for (Wallboard candidate : this.edge_candidates) {

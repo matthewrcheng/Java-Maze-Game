@@ -2,7 +2,7 @@
  * HAVE NOT FIGURED OUT HOW TO GET THIS TO WORK, WILL JUST IGNORE FOR NOW
  */
 
-package gui;
+//package gui;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;

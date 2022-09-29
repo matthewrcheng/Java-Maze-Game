@@ -139,6 +139,11 @@ public class MazePanel extends Panel implements P5PanelF21 {
 	public void setColor(int rgb) {
 		graphics.setColor(new Color(rgb));
 	}
+
+	@Override
+	public void setColor(Color col) {
+		graphics.setColor(col);
+	}
 	
 	@Override
 	public void setColor(int rgb, float alpha) {
