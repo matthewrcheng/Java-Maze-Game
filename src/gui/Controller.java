@@ -105,6 +105,8 @@ public class Controller {
     boolean wfDriver;
     // whether a test is being run or not
     boolean test;
+    // robot's battery
+    int battery = 3500;
     
     public Controller() {
     	states = new State[4];

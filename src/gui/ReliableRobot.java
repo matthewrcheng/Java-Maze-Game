@@ -34,7 +34,7 @@ public class ReliableRobot implements Robot {
 	// constructor
 	public ReliableRobot(Controller c) {
 		// initialize the battery level and odometer, set the controller
-		batteryLevel[0] = 3500; //30;
+		batteryLevel[0] = c.battery;
 		odometer = 0;
 		setController(c);
 		// add each of the robot's four sensors

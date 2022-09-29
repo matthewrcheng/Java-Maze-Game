@@ -170,6 +170,13 @@ public class MazeApplication extends JFrame {
 		    			result.setReliableBackward(false);
 		    		}
 		    	}
+				if ("-b".equalsIgnoreCase(parameter[r])) {
+					try {
+						result.battery = Integer.parseInt(parameter[r+1]);
+					} catch (Exception e) {
+						System.out.println("Could not recognize battery level, defaulting to 3500");
+					}
+				}
 		    }
 	    }
 	    // controller instanted and attributes set according to given input parameter
